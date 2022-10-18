@@ -11,8 +11,49 @@
   <title>Tienda Online - Cosas Lindas</title>
 </head>
 <body>
-  <nav>
+  <nav class="menu-mobile-media">
     <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/icon_menu.svg" alt="" class="menu">
+    <div class="mobile-menu inactive">
+      <ul>
+        <li>
+          <a href="">CATEGORIA</a>
+        </li>
+        <li>
+          <a href="">Todo</a>
+        </li>
+        <li>
+          <a href="">Ropa</a>
+        </li>
+        <li>
+          <a href="">Electronicos</a>
+        </li>
+        <li>
+          <a href="">Muebles</a>
+        </li>
+        <li>
+          <a href="">Juguetes</a>
+        </li>
+        <li>
+          <a href="">Otros</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="" class="title">Mi orden</a>
+        </li>
+        <li>
+          <a href="">Mi cuenta</a>
+        </li>
+      </ul>
+      <ul class="sing-movile-under">
+        <li>
+          <a href="" class="email">juanaperez@gmail.com</a>
+        </li>
+        <li>
+          <a href="" class="sing-out">Salir</a>
+        </li>
+      </ul>
+    </div>
     <div class="navbar-left">
       <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/logos/logo_yard_sale.svg" alt="" class="logo">
       <ul>
@@ -61,6 +102,69 @@
       </ul>
     </div>
   </nav>
+  <aside class="product-detail inactive">
+    <div class="title-container">
+      <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/flechita.svg" alt="flechita">
+      <p class="title">Mi carrito</p>
+    </div>
+
+    <div class="my-order-content">
+      
+      <div class="shopping-card">
+        <figure>
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+        </figure>
+        <p>Bike</p>
+        <p>$100.00</p>
+        <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+      </div>
+      <div class="shopping-card">
+        <figure>
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+        </figure>
+        <p>Bike</p>
+        <p>$100.00</p>
+        <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+      </div>
+      <div class="shopping-card">
+        <figure>
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+        </figure>
+        <p>Bike</p>
+        <p>$100.00</p>
+        <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+
+      </div>
+      <div class="shopping-card">
+        <figure>
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+        </figure>
+        <p>Bike</p>
+        <p>$100.00</p>
+        <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+
+      </div>
+      <div class="shopping-card">
+        <figure>
+          <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+        </figure>
+        <p>Bike</p>
+        <p>$100.00</p>
+        <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+
+      </div>
+      <div class="order">
+        <p>
+          <span>Total</span>
+          
+        </p>
+        <p>$560.00</p>
+      </div>
+      <button class="primary-button">
+        Checkout
+      </button>
+    </div>
+  </aside>
   <script src="./script.js"></script>
 </body>
 </html>
