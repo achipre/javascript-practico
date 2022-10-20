@@ -126,8 +126,10 @@ nav {
 /* Menu Mobile */
 
 .mobile-menu {
+
   padding: 24px;
   padding-left: 24px;
+  padding-right: 120px;
   position: absolute;
   top: 61px;
   left: 0;
@@ -179,6 +181,7 @@ nav {
 /* Aside del carriro de compras */
 
 .product-detail {
+  background-color: var(--white);
   width: 360px;
   padding: 6px 24px;
   position: absolute;
@@ -257,9 +260,55 @@ nav {
   font-size: var(--md);
   font-weight: bold;
 }
+/* Home Page */
 
+.cards-container {
+  padding-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 24px;
+  place-content: center;
 
-@media (max-width: 500px) {
+}
+.product-card {
+  width: 240px;
+  
+}
+.product-card img{
+  width: 240px;
+  height: 240px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+.product-info figure img {
+  width: 40px;
+  height: 40px;
+}
+.product-info figure {
+  margin: 0;
+}
+
+.product-info div p:nth-child(1){
+  font-weight: bold;
+  font-size: var(--md);
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.product-info div p:nth-child(2){
+  color: var(--very-light-pink);
+  font-size: var(--sm);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 503px) {
   .menu {
     display: block;
   }
@@ -271,9 +320,21 @@ nav {
   .product-detail {
     width: 100vw;
   }
+  .cards-container {
+    grid-template-columns: repeat(auto-fill, 140px);
+  
+  }
+  .product-card {
+    width: 140px;
+    
+  }
+  .product-card img{
+    width: 140px;
+    height: 140px;
+  }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 504px) {
   .mobile-menu  {
     display: none;
   }
