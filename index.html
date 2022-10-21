@@ -82,7 +82,7 @@
         <li class="navbar-email">juanaperez@gmail.com<img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/flechita.svg" alt=""></li>
         
         <li class="navbar-shopping-cart">
-          <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/icon_shopping_cart.svg" alt="Carrito de compras">
+          <img class='carritoIcon' src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/icon_shopping_cart.svg" alt="Carrito de compras">
           <div>2</div>
         </li>
       </ul>
@@ -165,21 +165,43 @@
       </button>
     </div>
   </aside>
-  <div class="cards-container">
-    <!-- Esto se ingresara por JS -->
-    <!-- <div class="product-card">
-      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="produc-card">
-      <div class="product-info">
-        <div>
-          <p>$120,00</p>
-          <p>bike</p>
+  <aside class="main-container">
+    <div class="cards-container">
+      <!-- Esto se ingresara por JS -->
+      <!-- <div class="product-card">
+        <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="produc-card">
+        <div class="product-info">
+          <div>
+            <p>$120,00</p>
+            <p>bike</p>
+          </div>
+          <figure>
+            <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/bt_add_to_cart.svg" alt="">
+          </figure>
         </div>
-        <figure>
-          <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/bt_add_to_cart.svg" alt="">
-        </figure>
-      </div>
-    </div> -->
-  </div>
+      </div> -->
+    </div>
+  </aside>
+  <aside class="product-detail-preview inactive">
+    <div class="product-detail-close">
+      <img src="https://github.com/platzi/curso-frontend-developer-practico/blob/main/icons/icon_close.png?raw=true" alt="close">
+    </div>
+    <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike">
+    <div class="dots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="product-info-preview">
+      <p>$100.00</p>
+      <p>Bicicleta</p>
+      <p>Hermosa bicicleta de dos ruedas y en buen estado y es de veinte velocidades, se vende con casco</p>
+      <button class="primary-button add-to-cart-button">
+        <img src="https://raw.githubusercontent.com/platzi/curso-frontend-developer-practico/4774124de4c723d46d6a22da4c93c03f7be9e7bd/icons/bt_add_to_cart.svg" alt="Agrega">
+        Agrega al carrito
+      </button>
+    </div>
+  </aside>    
 
   <script src="./script.js"></script>
 </body>
